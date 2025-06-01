@@ -248,11 +248,12 @@ font-size: 16px;
 
 .contact__details input{
 width: 91%;
-height: 2.3vh;
+height: 3vh;
 border-radius: 5px;
 margin-top: 0.5em;
 margin-bottom: 1em;
 padding-left: 8px;
+padding:10px;
 }
 
 .contact__details textarea{
