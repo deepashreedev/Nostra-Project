@@ -1414,7 +1414,7 @@ font-size: 18px;
 .left__col1__row2 label,
 .left__col1__row3 label {
     font-size: 22px;
- margin-left:2px;
+ margin-left:4px;
 }
 
 .right-side{
@@ -1449,7 +1449,7 @@ font-size: 18px;
     display: grid;
     grid-template-columns:23vw 23vw 23vw;
     column-gap: 28px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 12vh);
  }
 
 
@@ -1486,6 +1486,8 @@ height: 11vh;
 font-size: 12px;
 align-items: start;
 margin-top: 5px;
+padding-left: 4px;
+padding-right: 4px;
 }
 
 .col-1__row-1 p,
@@ -1495,6 +1497,7 @@ margin-top: 5px;
     margin-top: 3px;
     font-size: 12px;
 align-items: start;
+
 }
 
 .col-2__row-1 h2,
@@ -1504,6 +1507,8 @@ align-items: start;
 font-size: 12px;
 align-items: start;
 margin-top: 5px;
+padding-left: 4px;
+padding-right: 4px;
 }
 
 .col-2__row-1 p,
@@ -1531,6 +1536,8 @@ margin-top: 5px;
     font-size:12px;
 align-items: start;
     margin-top: 3px;
+    padding-left: 4px;
+padding-right: 4px;
 }
 
 .col-4__row-1 h2,
@@ -1540,6 +1547,8 @@ align-items: start;
 font-size: 12px;
 align-items: start;
 margin-top: 5px;
+padding-left: 4px;
+padding-right: 4px;
 }
 
 .col-4__row-1 p,
