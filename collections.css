@@ -1451,7 +1451,7 @@ font-size: 18px;
 .col-1__row-3 img,
 .col-1__row-4 img{
 width: 20vw;
-height: 14vh;
+height: 12vh;
 }
 
 
@@ -1460,7 +1460,7 @@ height: 14vh;
 .col-2__row-3 img,
 .col-2__row-4 img{
 width: 20vw;
-height: 14vh;
+height: 12vh;
 }
 
 .col-3__row-1 img,
@@ -1468,7 +1468,7 @@ height: 14vh;
 .col-3__row-3 img,
 .col-3__row-4 img{
 width: 20vw;
-height: 14vh;
+height: 12vh;
 }
 
 
@@ -1542,6 +1542,45 @@ margin-top: 5px;
     font-size: 18px;
 align-items: start;
     margin-top: 3px;
+}
+
+
+.main__sec7{
+    margin:1vh 2vw;
+}
+
+.main__sec7 h1{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.main__sec7 p{
+font-size: 20px;
+}
+
+.main__sec7 input{
+    width: 80vw;
+    margin-top: 12px;
+}
+
+.main__sec7 button{
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.footer{
+    padding:4vw;
+    height: 15vh;
+    margin-top: 2vh;
+}
+
+.footer h1{
+font-size: 26px;
+}
+
+.footer p,.footer__icons i,.footer a{
+font-size: 18px;
 }
 
 
