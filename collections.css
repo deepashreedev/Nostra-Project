@@ -1457,8 +1457,8 @@ font-size: 18px;
 .col-1__row-2 img,
 .col-1__row-3 img,
 .col-1__row-4 img{
-width: 16vw;
-height: 10vh;
+width: 18vw;
+height: 150px;
 }
 
 
@@ -1466,16 +1466,16 @@ height: 10vh;
 .col-2__row-2 img,
 .col-2__row-3 img,
 .col-2__row-4 img{
-width: 16vw;
-height: 10vh;
+width: 18vw;
+height: 150px;
 }
 
 .col-3__row-1 img,
 .col-3__row-2 img,
 .col-3__row-3 img,
 .col-3__row-4 img{
-width: 16vw;
-height: 10vh;
+width: 18vw;
+height: 150px;
 }
 
 
@@ -1483,7 +1483,7 @@ height: 10vh;
 .col-1__row-2 h2,
 .col-1__row-3 h2,
 .col-1__row-4 h2{
-font-size: 10px;
+font-size: 12px;
 align-items: start;
 margin-top: 5px;
 padding-left: 4px;
@@ -1495,7 +1495,7 @@ padding-right: 4px;
 .col-1__row-3 p,
 .col-1__row-4 p{
     margin-top: 3px;
-    font-size: 10px;
+    font-size: 12px;
 align-items: start;
 
 }
@@ -1504,7 +1504,7 @@ align-items: start;
 .col-2__row-2 h2,
 .col-2__row-3 h2,
 .col-2__row-4 h2{
-font-size: 10px;
+font-size: 12px;
 align-items: start;
 margin-top: 5px;
 
@@ -1515,7 +1515,7 @@ margin-top: 5px;
 .col-2__row-3 p,
 .col-2__row-4 p{
     margin-top: 3px;
-   font-size: 10px;
+   font-size: 12px;
 align-items: start;
 }
 
@@ -1523,7 +1523,7 @@ align-items: start;
 .col-3__row-2 h2,
 .col-3__row-3 h2,
 .col-3__row-4 h2{
-font-size:10px;
+font-size:12px;
 align-items: start;
 margin-top: 5px;
 }
@@ -1532,31 +1532,11 @@ margin-top: 5px;
 .col-3__row-2 p,
 .col-3__row-3 p,
 .col-3__row-4 p{
-    font-size:10px;
+    font-size:12px;
 align-items: start;
     margin-top: 3px;
    
 }
-
-.col-4__row-1 h2,
-.col-4__row-2 h2,
-.col-4__row-3 h2,
-.col-4__row-4 h2{
-font-size: 10px;
-align-items: start;
-margin-top: 5px;
-
-}
-
-.col-4__row-1 p,
-.col-4__row-2 p,
-.col-4__row-3 p,
-.col-4__row-4 p{
-    font-size: 10px;
-align-items: start;
-    margin-top: 3px;
-}
-
 
 
 .col-1__row-1 ,
@@ -1611,12 +1591,12 @@ border-left:1px solid rgba(165, 165, 165, 0.3);
 }
 
 .main__sec7 h1{
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
 .main__sec7 p{
-font-size: 12px;
+font-size: 16px;
 }
 
 .main__sec7 input{
