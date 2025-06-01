@@ -1483,7 +1483,7 @@ height: 153px;
 .col-1__row-2 h2,
 .col-1__row-3 h2,
 .col-1__row-4 h2{
-font-size: 12px;
+font-size: 14px;
 align-items: start;
 margin-top: 5px;
 padding-left: 4px;
@@ -1495,7 +1495,7 @@ padding-right: 4px;
 .col-1__row-3 p,
 .col-1__row-4 p{
    margin-top: 0;
-    font-size: 12px;
+    font-size: 14px;
 align-items: start;
 
 }
@@ -1504,7 +1504,7 @@ align-items: start;
 .col-2__row-2 h2,
 .col-2__row-3 h2,
 .col-2__row-4 h2{
-font-size: 12px;
+font-size: 14px;
 align-items: start;
 margin-top: 5px;
 
@@ -1515,7 +1515,7 @@ margin-top: 5px;
 .col-2__row-3 p,
 .col-2__row-4 p{
   
-   font-size: 12px;
+   font-size: 14px;
 align-items: start;
 margin-top: 0;
 
@@ -1525,7 +1525,7 @@ margin-top: 0;
 .col-3__row-2 h2,
 .col-3__row-3 h2,
 .col-3__row-4 h2{
-font-size:12px;
+font-size:14px;
 align-items: start;
 margin-top: 5px;
 }
@@ -1534,7 +1534,7 @@ margin-top: 5px;
 .col-3__row-2 p,
 .col-3__row-3 p,
 .col-3__row-4 p{
-    font-size:12px;
+    font-size:14px;
 align-items: start;
    
    margin-top: 0;
