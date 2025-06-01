@@ -279,11 +279,11 @@ padding:8px 8px;
 }
 
 .main__sec7 h1,.footer h1{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .main__sec7 p,.footer p,.footer a{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .main__sec7 input{
@@ -292,14 +292,14 @@ padding:8px 8px;
 }
 
 .main__sec7 button{
-font-size: 12px;
+font-size: 10px;
 border-radius: 8px;
 padding: 12px ;
 margin-top: 15px;
 }
 
 .footer__icons i{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer{
@@ -383,11 +383,11 @@ font-size: 18px;
 }
 
 .main__sec7 h1,.footer h1{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .main__sec7 p,.footer p,.footer a{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .main__sec7 input{
@@ -403,7 +403,7 @@ margin-top: 15px;
 }
 
 .footer__icons i{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .footer{
@@ -505,11 +505,11 @@ margin-right: 1.5vw;
 }
 
 .main__sec7 h1,.footer h1{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .main__sec7 p,.footer p,.footer a{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .main__sec7 input{
@@ -518,14 +518,14 @@ margin-right: 1.5vw;
 }
 
 .main__sec7 button{
-font-size: 16px;
+font-size: 14px;
 border-radius: 8px;
 padding: 15px 25px ;
 margin-top: 15px;
 }
 
 .footer__icons i{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .footer{
@@ -564,6 +564,40 @@ margin-top: 15px;
 }
 
 
+.main__sec7{
+    margin-top: 2.5vh;
+    margin-bottom: 2.8vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.main__sec7 h1,.footer h1{
+    font-size: 24px;
+}
+
+.main__sec7 p,.footer p,.footer a{
+    font-size: 18px;
+}
+
+.main__sec7 input{
+  width:80vw;
+  height: 6vh;
+}
+
+.main__sec7 button{
+font-size: 16px;
+border-radius: 8px;
+padding: 15px 25px ;
+margin-top: 15px;
+}
+
+.footer__icons i{
+    font-size: 18px;
+}
+
+.footer{
+   padding-right: 2.5vw;
+}
 
 
 
