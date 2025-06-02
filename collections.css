@@ -742,7 +742,7 @@ font-size: 10px;
 .col-1__row-3 img,
 .col-1__row-4 img{
 width: 20vw;
-height: 15vh;
+height:auto;
 }
 
 
@@ -751,7 +751,7 @@ height: 15vh;
 .col-2__row-3 img,
 .col-2__row-4 img{
 width: 20vw;
-height: 15vh;
+height:auto;
 }
 
 .col-3__row-1 img,
@@ -759,7 +759,7 @@ height: 15vh;
 .col-3__row-3 img,
 .col-3__row-4 img{
 width: 20vw;
-height: 15vh;
+height:auto;
 }
 
 .col-4__row-1 img,
@@ -767,7 +767,7 @@ height: 15vh;
 .col-4__row-3 img,
 .col-4__row-4 img{
 width: 20vw;
-height: 15vh;
+height: auto;
 }
 
 .col-1__row-1 ,
@@ -1008,7 +1008,7 @@ font-size: 10px;
 .col-1__row-3 img,
 .col-1__row-4 img{
 width: 20vw;
-height: 15vh;
+height: auto;
 }
 
 
@@ -1017,7 +1017,7 @@ height: 15vh;
 .col-2__row-3 img,
 .col-2__row-4 img{
 width: 20vw;
-height: 15vh;
+height: auto;
 }
 
 .col-3__row-1 img,
@@ -1025,7 +1025,7 @@ height: 15vh;
 .col-3__row-3 img,
 .col-3__row-4 img{
 width: 20vw;
-height: 15vh;
+height: auto;
 }
 
 .col-1__row-1 ,
@@ -1234,7 +1234,7 @@ font-size: 14px;
 .col-1__row-3 img,
 .col-1__row-4 img{
 width: 20vw;
-height: 100%;
+height:auto;
 }
 
 
@@ -1243,7 +1243,7 @@ height: 100%;
 .col-2__row-3 img,
 .col-2__row-4 img{
 width: 20vw;
-height: 100%;
+height:auto;
 }
 
 .col-3__row-1 img,
@@ -1251,7 +1251,7 @@ height: 100%;
 .col-3__row-3 img,
 .col-3__row-4 img{
 width: 20vw;
-height: 100%;
+height: auto;
 }
 
 .col-1__row-1 ,
@@ -1264,6 +1264,7 @@ margin: 25px 0px 0px 20px;
  border-top: 1px solid rgba(165, 165, 165, 0.3);
 border-left:1px solid rgba(165, 165, 165, 0.3);
  box-shadow: 2px 2px 5px rgb(227, 227, 227);
+
 }
 
 .col-2__row-1 ,
@@ -1483,7 +1484,7 @@ height: auto;
 .col-1__row-2 h2,
 .col-1__row-3 h2,
 .col-1__row-4 h2{
-font-size: 16px;
+font-size: 12px;
 align-items: start;
 margin-top: 5px;
 padding-left: 4px;
@@ -1495,7 +1496,7 @@ padding-right: 4px;
 .col-1__row-3 p,
 .col-1__row-4 p{
    margin-top: 0;
-    font-size: 16px;
+    font-size: 12px;
 align-items: start;
 
 }
@@ -1504,7 +1505,7 @@ align-items: start;
 .col-2__row-2 h2,
 .col-2__row-3 h2,
 .col-2__row-4 h2{
-font-size: 16px;
+font-size: 12px;
 align-items: start;
 margin-top: 5px;
 
@@ -1515,7 +1516,7 @@ margin-top: 5px;
 .col-2__row-3 p,
 .col-2__row-4 p{
   
-   font-size: 16px;
+   font-size: 12px;
 align-items: start;
 margin-top: 0;
 
@@ -1525,7 +1526,7 @@ margin-top: 0;
 .col-3__row-2 h2,
 .col-3__row-3 h2,
 .col-3__row-4 h2{
-font-size:16px;
+font-size:12px;
 align-items: start;
 margin-top: 5px;
 }
@@ -1534,7 +1535,7 @@ margin-top: 5px;
 .col-3__row-2 p,
 .col-3__row-3 p,
 .col-3__row-4 p{
-    font-size:16px;
+    font-size:12px;
 align-items: start;
    
    margin-top: 0;
