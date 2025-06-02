@@ -185,13 +185,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 6em 1em;
+    margin: 6em 1em 1em 1em;
 }
 
 .main__sec2__h1 {
     font-weight: 900;
     width: 25em;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .main__sec2__p {
@@ -236,7 +236,7 @@ body {
 
 .main__sec4 {
     margin: 20px;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 .main__sec4__container {
@@ -247,7 +247,8 @@ body {
 }
 
 .main__sec4 h1 {
-    padding-bottom: 1em;
+    padding-bottom: 0.8em;
+    font-size: 26px;
 }
 
 .sec4__item-1 img,
@@ -288,14 +289,19 @@ body {
 /* */
 
 .main__sec5 {
-    margin-top: 7em;
+    margin-top: 9em;
     margin-left: 20px;
     margin-right: 20px;
 }
 
+.main__sec5 h1{
+     padding-bottom: 0.8em;
+    font-size: 26px;
+}
+
 .main__sec5__container {
     display: flex;
-    gap: 1.1em;
+    gap: 1.2em;
 }
 
 .sec5__item-1,
@@ -308,8 +314,8 @@ body {
 .sec5__item-8,
 .sec5__item-9,
 .sec5__item-10 {
-    height: 300px;
-    width: 300px;
+    height: 320px;
+    width: 400px;
     border-top: 1px solid #ebebeb;
     border-left: 1px solid #ebebeb;
     box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.171);
@@ -330,6 +336,7 @@ body {
 .sec5__item-10 img {
     width: 250px;
     height: 250px;
+    margin-bottom: 10px;
 }
 
 .sec5__sale{
@@ -342,6 +349,7 @@ body {
     letter-spacing: 1px;
     border-radius: 5px;
     margin-top: 10px;
+   margin-left: 0.6em;
 }
 
 .sec5__item-1 i,
@@ -356,7 +364,7 @@ body {
 .sec5__item-10 i {
     position: absolute;
     right: 10px;
-    bottom: 0;
+    bottom: 10px;
     font-size: 25px;
 }
 
@@ -581,13 +589,13 @@ margin: 0.5vw;
 }
 
 .main__sec4 {
-margin-top: 3em;
+margin-top: 2em;
 }
 
 
 .main__sec4 h1{
     font-size: 18px;
-    margin-bottom: 0.3em;
+    margin-bottom: 3px;
 }
 
 .main__sec4__container{
@@ -640,7 +648,7 @@ margin-top: 3em;
 
 .sec4__item-1 button{
 top:12vh;
-left: 8vw;
+left: 7vw;
    font-size: 8px;
    padding: 4px 5px;
   
@@ -648,7 +656,7 @@ left: 8vw;
 
 .sec4__item-2 button{
 top:12vh;
-left: 8vw;
+left: 7vw;
    font-size: 8px;
    padding: 4px 5px;
 
@@ -656,20 +664,20 @@ left: 8vw;
 
 .sec4__item-3 button{
 top:12vh;
-left: 8vw;
+left: 7vw;
    font-size: 8px;
    padding: 4px 5px;
 }
 
 .sec4__item-4 button{
 top:12vh;
-left: 8vw;
+left: 7vw;
    font-size: 8px;
    padding: 4px 5px;
 }
 
 .main__sec5 {
-    margin-top: 3em;
+    margin-top: 2.5em;
 }
 
 .main__sec5__container{
@@ -680,11 +688,11 @@ left: 8vw;
 
 .main__sec5 h1{
     font-size: 18px;
-    margin-bottom: 1em;
+    margin-bottom: 3px;
 }
 
 .sec5__item-1 img,.sec5__item-2 img,.sec5__item-3 img,.sec5__item-4 img,.sec5__item-5 img,.sec5__item-6 img,.sec5__item-7 img,.sec5__item-8 img,.sec5__item-9 img,.sec5__item-10 img{
-    height: 10vh;
+    height: 11vh;
     width: 19.5vw;
  }
 
@@ -692,8 +700,8 @@ left: 8vw;
     font-size: 10px;
     padding: 3px 8px;
     position: relative;
-    left:-1.2em;
-    top:-1.2em
+    left:-15px;
+    top:-1.4em
 }
 
 .sec5__item-1 i,
@@ -720,10 +728,10 @@ left: 8vw;
 .sec5__item-8 ,
 .sec5__item-9 ,
 .sec5__item-10{
-height: 15vh;
+height: 16vh;
 width: 100vw;
 padding:10px 15px;
-margin-right: 0.5em;
+/* margin-right: 0.1em; */
 border-top: 1px solid #ebebeb;
     border-left: 1px solid #ebebeb;
     box-shadow: 2px 2px 7px rgba(224, 224, 224, 0.966);
@@ -732,8 +740,8 @@ border-top: 1px solid #ebebeb;
 .main__sec6{
     width: 90vw;
     height: 20vh;
-      margin-top: 3em;
-    margin-bottom: 3em;
+      margin-top:1.5em;
+    margin-bottom: 2em;
 }
 
 .sec6__desc{
@@ -763,7 +771,7 @@ margin-top: 2em;
 }
 
 .main__sec7{
-    margin: 30px 10px;
+    margin: 5px 10px;
 }
 
 .main__sec7 h1{
@@ -786,7 +794,7 @@ margin-top: 2em;
 }
 
 .footer{
-    margin-top: 3em;
+    margin-top: 2.5em;
 }
 
 
@@ -1034,7 +1042,7 @@ left: 5.5vw;
     font-size: 12px;
     padding: 3px 8px;
     position: relative;
-    left:-1.2em;
+    left:-8px;
     top:-1.2em
 }
 
@@ -1048,8 +1056,8 @@ left: 5.5vw;
 .sec5__item-8 i,
 .sec5__item-9 i,
 .sec5__item-10 i{
-   bottom:0.5em;
-    font-size: 14px;
+   bottom:0.4em;
+    font-size: 17px;
 }
 
 .sec5__item-1 ,
@@ -1065,7 +1073,7 @@ left: 5.5vw;
 height: 15vh;
 width: 100vw;
 padding:10px 15px;
-margin-right: 0.5em;
+margin-right: 0.1em;
 border-top: 1px solid #ebebeb;
     border-left: 1px solid #ebebeb;
     box-shadow: 2px 2px 9px rgba(210, 210, 210, 0.966);
@@ -1380,8 +1388,8 @@ left: 5.5vw;
     font-size: 12px;
     padding: 3px 8px;
     position: relative;
-    left:-1.2em;
-    top:-1.2em
+    left:-5px;
+    top:-10px
 }
 
 .sec5__item-1 i,
@@ -1395,7 +1403,7 @@ left: 5.5vw;
 .sec5__item-9 i,
 .sec5__item-10 i{
    bottom:0.5em;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .sec5__item-1 ,
@@ -1411,7 +1419,7 @@ left: 5.5vw;
 height: 16vh;
 width: 100vw;
 padding:10px 15px;
-margin-right: 0.5em;
+margin-right: 0.1em;
 border-top: 1px solid #ebebeb;
     border-left: 1px solid #ebebeb;
     box-shadow: 2px 2px 9px rgba(210, 210, 210, 0.966);
@@ -2104,7 +2112,7 @@ left: 5.3vw;
 }
 
 .sec5__item-1 img,.sec5__item-2 img,.sec5__item-3 img,.sec5__item-4 img,.sec5__item-5 img,.sec5__item-6 img,.sec5__item-7 img,.sec5__item-8 img,.sec5__item-9 img,.sec5__item-10 img{
-    height: 15.5vh;
+    height: 14.5vh;
     width: 16vw;
  }
 
@@ -2128,7 +2136,7 @@ left: 5.3vw;
 .sec5__item-9 i,
 .sec5__item-10 i{
    bottom:0.5em;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .sec5__item-1 ,
@@ -2141,7 +2149,7 @@ left: 5.3vw;
 .sec5__item-8 ,
 .sec5__item-9 ,
 .sec5__item-10{
-height: 20vh;
+height: 18vh;
 width: 100vw;
 padding:10px 15px;
 margin-right: 0.5em;
@@ -2152,7 +2160,7 @@ border-top: 1px solid #ebebeb;
 
 
 .main__sec6{
-    width: 95vw;
+    width: 97vw;
     height: 28vh;
       margin-top: 3em;
     margin-bottom: 3em;
@@ -2501,7 +2509,7 @@ left: 5.3vw;
 .sec5__item-8 ,
 .sec5__item-9 ,
 .sec5__item-10{
-height: 21.5vh;
+height: 21vh;
 width: 100vw;
 padding:10px 15px;
 margin-right: 1em;
@@ -2512,7 +2520,7 @@ border-top: 1px solid #ebebeb;
 
 
 .main__sec6{
-    width: 95vw;
+    width: 97vw;
     height: 30vh;
       margin-top: 3em;
     margin-bottom: 3em;
@@ -2589,4 +2597,15 @@ margin-top: 4.5em;
 }
 
 
-/* ---------------------------------- */
+/* ------------------------------------------------------------------------*/
+
+@media screen and (min-width:1501px) {
+
+    
+
+.main__sec5__container{
+      overflow-x: auto;
+      scrollbar-width: none;
+      overflow-y: hidden;
+}
+}
