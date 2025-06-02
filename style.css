@@ -684,6 +684,7 @@ left: 7vw;
       overflow-x: auto;
       scrollbar-width: none;
       overflow-y: hidden;
+      column-gap: 15px;
 }
 
 .main__sec5 h1{
@@ -693,7 +694,7 @@ left: 7vw;
 
 .sec5__item-1 img,.sec5__item-2 img,.sec5__item-3 img,.sec5__item-4 img,.sec5__item-5 img,.sec5__item-6 img,.sec5__item-7 img,.sec5__item-8 img,.sec5__item-9 img,.sec5__item-10 img{
     height: 11vh;
-    width: 19.5vw;
+    width: 20vw;
  }
 
 .sec5__sale{
