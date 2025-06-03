@@ -11,55 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .menulinks {
-            display: none;
-            flex-direction: column;
-            position: fixed;
-            top: 0;
-            right: 0;
-            background: white;
-            width: 70%;
-            height: 100%;
-            padding: 2rem;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-            z-index: 999;
-        }
-
-        .menulinks.active {
-            display: flex;
-        }
-
-        .menulinks i {
-            align-self: flex-end;
-            font-size: 1.5rem;
-            cursor: pointer;
-        }
-
-        .menulinks a {
-            margin: 1rem 0;
-        }
-
-        @media (max-width: 768px) {
-            .navlinks {
-                display: none;
-            }
-
-            .menubar {
-                display: block;
-            }
-        }
-
-        @media (min-width: 769px) {
-            .menubar {
-                display: none;
-            }
-        }
-    </style>
+     
 </head>
 
 <body>
@@ -102,43 +54,13 @@
 <!-- Carousel Section -->
 <div class="carousel">
     <div class="carousel-track" id="carouselTrack">
-        <div class="carousel-slide"><img src="./images/offer.jpg" alt="Slide 1"></div>
-        <div class="carousel-slide"><img src="./images/offer.jpg" alt="Slide 2"></div>
-        <div class="carousel-slide"><img src="./images/offer.jpg" alt="Slide 3"></div>
+        <div class="carousel-slide"><img src="./images/carousel2.png" alt="Slide 1"></div>
+        <div class="carousel-slide"><img src="./images/carousel4.png" alt="Slide 2"></div>
+        <div class="carousel-slide"><img src="./images/carousel3.png" alt="Slide 3"></div>
     </div>
     <button class="carousel-btn prev" id="prevBtn"><i class="fa-solid fa-angle-left"></i></button>
     <button class="carousel-btn next" id="nextBtn"><i class="fa-solid fa-angle-right"></i></button>
 </div>
-
-
-
-
-<script>
-    const track = document.getElementById('carouselTrack');
-    const slides = document.querySelectorAll('.carousel-slide');
-    const prev = document.getElementById('prevBtn');
-    const next = document.getElementById('nextBtn');
-    let index = 0;
-
-    function updateSlidePosition() {
-        track.style.transform = `translateX(-${index * 100}%)`;
-    }
-
-    next.addEventListener('click', () => {
-        index = (index + 1) % slides.length;
-        updateSlidePosition();
-    });
-
-    prev.addEventListener('click', () => {
-        index = (index - 1 + slides.length) % slides.length;
-        updateSlidePosition();
-    });
-
-    setInterval(() => {
-        index = (index + 1) % slides.length;
-        updateSlidePosition();
-    }, 5000);
-</script>
 
 
     <!-- Brands Section -->
@@ -249,20 +171,10 @@
         <a>@ 2025 Nostra.com</a>
     </div>
 
-    <!-- JavaScript -->
-    <script>
-        const menuOpen = document.getElementById("menu-open");
-        const menuClose = document.getElementById("menu-close");
-        const sideMenu = document.getElementById("side-menu");
+    <!-- JavaScript link-->
+    
+<script src="script.js"></script>
 
-        menuOpen.addEventListener("click", () => {
-            sideMenu.classList.add("active");
-        });
-
-        menuClose.addEventListener("click", () => {
-            sideMenu.classList.remove("active");
-        });
-    </script>
 </body>
 
 </html>

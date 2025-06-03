@@ -78,17 +78,7 @@
     </div>
 
     <script>
-        const menuOpen = document.getElementById("menu-open");
-        const menuClose = document.getElementById("menu-close");
-        const sideMenu = document.getElementById("side-menu");
-
-        menuOpen.addEventListener("click", () => {
-            sideMenu.classList.add("active");
-        });
-
-        menuClose.addEventListener("click", () => {
-            sideMenu.classList.remove("active");
-        });
+   
     </script>
 
   <div class="Main__container">
@@ -184,45 +174,10 @@
     <a>@ 2025 Nostra.com</a>
   </div>
 
-  <script>
-    const checkboxes = document.querySelectorAll('.left-side input[type="checkbox"]');
-    const searchInput = document.getElementById('searchInput');
+  
 
-    function applyFilters() {
-      const active = { color: [], occasion: [], arrival: [] };
+<script src="collections.js"></script>
 
-      checkboxes.forEach(cb => {
-        if (cb.checked) {
-          const id = cb.id.trim();
-          if (["Red", "Blue", "White", "Green"].includes(id)) active.color.push(id);
-          if (["Summer", "Party", "Beach", "Casual"].includes(id)) active.occasion.push(id);
-          if (["New", "Old"].includes(id)) active.arrival.push(id);
-        }
-      });
-
-      const query = searchInput.value.toLowerCase();
-      const products = document.querySelectorAll('.right__row2__container div[class^="col-"]');
-
-      products.forEach(p => {
-        const title = p.querySelector('h2')?.textContent.trim().toLowerCase();
-        const data = {
-          color: p.dataset.color,
-          occasion: p.dataset.occasion,
-          arrival: p.dataset.arrival
-        };
-        const matches =
-          (!query || title.includes(query)) &&
-          (active.color.length === 0 || active.color.includes(data.color)) &&
-          (active.occasion.length === 0 || active.occasion.includes(data.occasion)) &&
-          (active.arrival.length === 0 || active.arrival.includes(data.arrival));
-
-        p.style.display = matches ? "block" : "none";
-      });
-    }
-
-    checkboxes.forEach(cb => cb.addEventListener('change', applyFilters));
-    searchInput.addEventListener('input', applyFilters);
-  </script>
 </body>
 
 </html>
