@@ -89,12 +89,12 @@ body {
     top: 0;
     right: 0;
     background: white;
-    width: 60%;
+    width:60vw ;
     height: 100%;
     padding: 2rem;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     z-index: 999;
-    background-color: #00000030;
+   background-color:#1D232C;
 }
 
 
@@ -113,15 +113,15 @@ body {
     text-decoration: underline;
 }
 
-.menulinks {
+/* .menulinks {
     display: none;
     flex-direction: column;
-    background-color: #1D232C;
+    background-color:#1D232C;
     height: 100vh;
-    width: 13em;
-    padding: 20px;
+    width: 13rem;
+    padding: 20px ;
 
-}
+} */
 
 .menulinks.active {
     display: flex;
@@ -129,12 +129,13 @@ body {
 
 .menulinks i {
     align-self: flex-end;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 
 .menulinks a {
-    margin: 1rem 0;
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
 }
 
 .menulinks i {

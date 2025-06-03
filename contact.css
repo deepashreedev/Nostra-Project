@@ -68,14 +68,16 @@ body {
 
 .menubar {
     display: none;
+          font-size: 1.5rem;
 cursor: pointer;
 }
 
 .menulinks a {
     color: #E2E1E1;
     text-decoration: none;
-    padding: 15px;
-}
+    padding: 1.5em;
+  text-align: center;
+ }
 
 .menulinks a:hover {
     text-decoration: underline;
@@ -87,14 +89,34 @@ cursor: pointer;
     background-color: #1D232C;
     height: 100vh;
     width: 13em;
-    padding: 20px;
+   position: fixed;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      padding: 1em;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+      z-index: 999;
 
 }
+
+
+    .menulinks.active {
+      display: flex;
+    }
 
 .menulinks i {
-    text-align: right;
-}
+      align-self: flex-end;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
 
+    .menulinks a {
+      margin: 0.5rem 1rem  ;
+      text-decoration: none;
+      color: #f7f7f7;
+      font-size: 1.2rem;
+    }
 
 
 
@@ -454,7 +476,7 @@ border: none;
 }
 
 .navlinks a {
- font-size: 20px;
+ font-size: 12px;
  font-weight: 700;
  letter-spacing: 1px;
     text-decoration: none;
