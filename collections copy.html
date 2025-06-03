@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .menulinks {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background-color: #111;
+            padding: 20px;
+            z-index: 1000;
+        }
+        .menulinks.show { display: flex; }
+        .menulinks a {
+            color: white;
+            padding: 10px 0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .menulinks i {
+            align-self: flex-end;
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+        }
+        .navlinks { display: flex; gap: 20px; }
+        .menubar { display: none; }
+        @media (max-width: 768px) {
+            .navlinks { display: none; }
+            .menubar { display: block; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="offer">
+        <p>Sign Up and <span class="offer__bold-txt"> GET 20% OFF </span> for your first order </p>
+        <i class="fa-solid fa-xmark" style="color: red;"></i>
+    </div>
+
+    <nav>
+        <div class="navbar">
+            <div class="navbar__title">
+                <h1>Nostra</h1>
+            </div>
+            <div class="navlinks">
+                <a href="index.html"> Home</a>
+                <a href="#">New arrival</a>
+                <a href="#">Most wanted</a>
+                <a href="collections.html">Collections</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="menubar" id="menu-open">
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menulinks" id="mobile-menu">
+        <i class="fa-solid fa-xmark" id="menu-close" style="color: #E2E1E1;"></i>
+        <a href="index.html"> Home</a>
+        <a href="#">New arrival</a>
+        <a href="#">Most wanted</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="Main__container">
+        <div class="left-side">
+            <div class="left__col1__row1">
+                <h1>Occasion</h1><br>
+                <input type="checkbox" id="Summer"><label for="Summer">Summer</label><br><br>
+                <input type="checkbox" id="Party"><label for="Party"> Party</label><br><br>
+                <input type="checkbox" id="Beach"><label for="Beach"> Beach</label><br><br>
+                <input type="checkbox" id="Casual"><label for="Casual"> Casual</label>
+            </div>
+            <div class="left__col1__row2">
+                <h1>Colors</h1><br>
+                <input type="checkbox" id="Red"><label for="Red"> Red</label><br><br>
+                <input type="checkbox" id="Blue"><label for="Blue"> Blue</label><br><br>
+                <input type="checkbox" id="White"><label for="White"> White</label><br><br>
+                <input type="checkbox" id="Green"><label for="Green"> Green</label>
+            </div>
+            <div class="left__col1__row3">
+                <h1>Arrivals</h1><br>
+                <input type="checkbox" id="New"><label for="New"> New </label><br><br>
+                <input type="checkbox" id="Old"><label for="Old"> Old </label>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="right__row1__container">
+                <div class="right__row1__search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #727272ba;"></i>
+                </div>
+            </div>
+
+            <div class="right__row2__container" style="display:flex;flex-wrap:wrap;gap:20px;">
+                <div class="col-1__row-1" data-occasion="Summer" data-color="White" data-arrival="New">
+                    <img src="./images/bfit3.png" alt="Floral Summer Shirt">
+                    <h2>Floral Shirt</h2><p> $84 </p>
+                </div>
+                <div class="col-1__row-2" data-occasion="Casual" data-color="Red" data-arrival="Old">
+                    <img src="./images/red.png" alt="Casual Shirt">
+                    <h2>Casual Shirt</h2><p> $45 </p>
+                </div>
+                <div class="col-1__row-3" data-occasion="Summer" data-color="Green" data-arrival="New">
+                    <img src="./images/pw-2.png" alt="Party Floral Shirt">
+                    <h2>Summer Wear</h2><p> $74 </p>
+                </div>
+                <div class="col-1__row-4" data-occasion="Party" data-color="Blue" data-arrival="Old">
+                    <img src="./images/pw3.png" alt="Party Floral Shirt">
+                    <h2>Party Wear</h2><p> $63 </p>
+                </div>
+                <div class="col-2__row-1" data-occasion="Beach" data-color="White" data-arrival="New">
+                    <img src="./images/summerfit1.png" alt="Beach Wear">
+                    <h2>Beach Wear</h2><p> $40 </p>
+                </div>
+                <div class="col-2__row-2" data-occasion="Casual" data-color="White" data-arrival="Old">
+                    <img src="./images/fit3.png" alt="Casual Wear">
+                    <h2>Casual Wear</h2><p> $63 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main__sec7">
+        <h1>Join our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <input type="text"><br>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="footer">
+        <h1>Nostra</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <div class="footer__icons">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+        </div>
+        <a>@ 2025 Nostra.com</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const productItems = document.querySelectorAll('[class^="col-"]');
+
+            function getCheckedValues() {
+                const filters = { occasion: [], color: [], arrival: [] };
+                checkboxes.forEach(checkbox => {
+                    if (checkbox.checked) {
+                        const id = checkbox.id.trim().toLowerCase();
+                        if (["summer", "party", "beach", "casual"].includes(id)) filters.occasion.push(id);
+                        else if (["red", "blue", "white", "green"].includes(id)) filters.color.push(id);
+                        else if (["new", "old"].includes(id)) filters.arrival.push(id);
+                    }
+                });
+                return filters;
+            }
+
+            function filterItems() {
+                const { occasion, color, arrival } = getCheckedValues();
+                productItems.forEach(item => {
+                    const itemOccasion = item.dataset.occasion?.toLowerCase() || "";
+                    const itemColor = item.dataset.color?.toLowerCase() || "";
+                    const itemArrival = item.dataset.arrival?.toLowerCase() || "";
+                    const matchOccasion = occasion.length === 0 || occasion.includes(itemOccasion);
+                    const matchColor = color.length === 0 || color.includes(itemColor);
+                    const matchArrival = arrival.length === 0 || arrival.includes(itemArrival);
+                    item.style.display = (matchOccasion && matchColor && matchArrival) ? "block" : "none";
+                });
+            }
+
+            checkboxes.forEach(cb => {
+                cb.addEventListener("change", filterItems);
+            });
+            filterItems();
+
+            const openBtn = document.getElementById("menu-open");
+            const closeBtn = document.getElementById("menu-close");
+            const menu = document.getElementById("mobile-menu");
+            openBtn.addEventListener("click", () => menu.classList.add("show"));
+            closeBtn.addEventListener("click", () => menu.classList.remove("show"));
+        });
+    </script>
+</body>
+
+</html>
